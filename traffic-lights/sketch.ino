@@ -9,7 +9,7 @@ const int LEDred56 = 4;
 const int LEDyellow56 = 7;
 const int LEDgreen56 = 8;
 float duration910, distance910, duration56, distance56;
-                    // this must go in the void loop
+// this must go in the void loop
 void setup() {
   pinMode(trigPin910, OUTPUT);
   pinMode(echoPin910, INPUT);
